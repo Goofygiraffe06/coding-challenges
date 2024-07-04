@@ -3,10 +3,12 @@
 ## Introduction
 
 This project involved building a custom version of the Unix command line tool wc, named gwc. The Unix wc (word count) tool is a simple yet powerful utility that counts lines, words, characters, and bytes in text files. This project follows the Unix Philosophy of writing simple, modular tools that can be combined to perform complex tasks.
-Motivation
+
+## Motivation
 
 The motivation behind this project was to deepen the understanding of Unix command line tools and the principles that make them effective. By recreating wc, the project demonstrates how simple utilities can be designed and implemented to handle text processing tasks efficiently.
-Project Goals
+
+## Project Goals
 
    1. Implement Line, Word, and Character Counting: The primary goal was to implement functionalities to count lines, words, and characters in text files.
    2. Support Command Line Options: Support various command line options (-l, -w, -c) to count lines, words, and characters respectively.
@@ -17,10 +19,10 @@ Project Goals
 
 The project was implemented in C using the argp library for command line argument parsing. The key features of the implementation include:
 
-   1. Command Line Parsing: Utilized argp to handle command line options and arguments.
-   2. File Processing: Implemented functions to open and process files, counting lines, words, and characters.
-   3. Multibyte Support: Ensured correct counting of multibyte characters by using locale-aware functions.
-   4. Standard Input Handling: Added functionality to read from standard input when no file is provided.
+   1. *Command Line Parsing*: Utilized argp to handle command line options and arguments.
+   2. *File Processing*: Implemented functions to open and process files, counting lines, words, and characters.
+   3. *Multibyte Support*: Ensured correct counting of multibyte characters by using locale-aware functions.
+   4. *Standard Input Handling*: Added functionality to read from standard input when no file is provided.
 
 ## Key Functions
 
