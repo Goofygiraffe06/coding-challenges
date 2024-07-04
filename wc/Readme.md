@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project involved building a custom version of the Unix command line tool wc, named gwc. The Unix wc (word count) tool is a simple yet powerful utility that counts lines, words, characters, and bytes in text files. This project follows the Unix Philosophy of writing simple, modular tools that can be combined to perform complex tasks.
+This project involved building a custom version of the Unix command line tool wc, named gwc. The Unix wc (word count) tool is a simple yet powerful utility that counts lines, words, characters, and bytes in text files. This project follows the Unix Philosophy of writing simple, modular tools that can be combined to perform complex tasks. [Original Description](https://codingchallenges.fyi/challenges/challenge-wc)
 
 ## Motivation
 
