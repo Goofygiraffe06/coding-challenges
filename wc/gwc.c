@@ -145,7 +145,7 @@ int main(int argc, char *argv[]) {
         if (arguments.lines) printf("%d ", lines);
         if (arguments.words) printf("%d ", words);
         if (arguments.chars) printf("%d ", chars);
-        printf("%s\n", arguments.files[i]);
+        sprintf("%s\n", arguments.files[i]);
     }
 
     return 0;
